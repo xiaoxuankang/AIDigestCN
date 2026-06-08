@@ -1,81 +1,89 @@
-people:
-  - id: sam_altman
-    name: Sam Altman
-    role: OpenAI CEO
-    twitter_handle: sama
-    sources:
-      - type: twitter
-        enabled: true
-      - type: podcast    # V2
-        enabled: false
+# AIDigestCN 关注列表 · 零分PM 定制版
+# 分类说明见注释，复制到 GitHub 仓库根目录 people.yml 即可
 
-  - id: dario_amodei
-    name: Dario Amodei
-    role: Anthropic CEO
-    twitter_handle: DarioAmodei
-    sources:
-      - type: twitter
-        enabled: true
+people:
+
+  # ── 一、AI 思想领袖（理念最深，必读）────────────────────────
 
   - id: andrej_karpathy
     name: Andrej Karpathy
-    role: AI 研究者 / 前 Tesla AI 总监
+    role: AI 思想领袖 · Anthropic 研究员 / 前 Tesla AI 总监
     twitter_handle: karpathy
     sources:
       - type: twitter
         enabled: true
 
-  - id: swyx
-    name: Swyx
-    role: Latent Space 联合创始人
-    twitter_handle: swyx
+  - id: sam_altman
+    name: Sam Altman
+    role: AI 思想领袖 · OpenAI CEO
+    twitter_handle: sama
+    sources:
+      - type: twitter
+        enabled: true
+      - type: podcast
+        enabled: false
+
+  - id: dario_amodei
+    name: Dario Amodei
+    role: AI 思想领袖 · Anthropic CEO
+    twitter_handle: DarioAmodei
     sources:
       - type: twitter
         enabled: true
 
-  - id: josh_woodward
-    name: Josh Woodward
-    role: Google Labs VP
-    twitter_handle: joshwoodward
+  - id: yann_lecun
+    name: Yann LeCun
+    role: AI 思想领袖 · Meta 首席 AI 科学家
+    twitter_handle: ylecun
     sources:
       - type: twitter
         enabled: true
 
-  - id: kevin_weil
-    name: Kevin Weil
-    role: OpenAI CPO
-    twitter_handle: kevinweil
+  - id: demis_hassabis
+    name: Demis Hassabis
+    role: AI 思想领袖 · Google DeepMind CEO
+    twitter_handle: demishassabis
     sources:
       - type: twitter
         enabled: true
 
-  - id: peter_yang
-    name: Peter Yang
-    role: Cursor 产品负责人
-    twitter_handle: petergyang
+  - id: andrew_ng
+    name: Andrew Ng
+    role: AI 思想领袖 · DeepLearning.AI 创始人
+    twitter_handle: AndrewYNg
     sources:
       - type: twitter
         enabled: true
 
-  - id: amanda_askell
-    name: Amanda Askell
-    role: Anthropic 研究科学家
-    twitter_handle: AmandaAskell
+  # ── 二、AI 创始人 / CEO（看产品方向从哪来）──────────────────
+
+  - id: greg_brockman
+    name: Greg Brockman
+    role: AI 创始人 · OpenAI 联创 / 总裁
+    twitter_handle: gdb
     sources:
       - type: twitter
         enabled: true
 
-  - id: cat_wu
-    name: Cat Wu
-    role: Anthropic 工程师
-    twitter_handle: _catwu
+  - id: mira_murati
+    name: Mira Murati
+    role: AI 创始人 · Thinking Machines Lab 创始人 / 前 OpenAI CTO
+    twitter_handle: miramurati
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: michael_truell
+    name: Michael Truell
+    role: AI 创始人 · Cursor CEO
+    twitter_handle: mntruell
     sources:
       - type: twitter
         enabled: true
 
   - id: amjad_masad
     name: Amjad Masad
-    role: Replit CEO
+    role: AI 创始人 · Replit CEO
     twitter_handle: amasad
     sources:
       - type: twitter
@@ -83,31 +91,107 @@ people:
 
   - id: guillermo_rauch
     name: Guillermo Rauch
-    role: Vercel CEO
+    role: AI 创始人 · Vercel CEO
     twitter_handle: rauchg
     sources:
       - type: twitter
         enabled: true
 
-  - id: alex_albert
-    name: Alex Albert
-    role: Anthropic 开发者关系负责人
-    twitter_handle: alexalbert__
+  - id: peter_steinberger
+    name: Peter Steinberger
+    role: AI 创始人 · OpenClaw 作者 / 现 OpenAI
+    twitter_handle: steipete
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: clem_delangue
+    name: Clem Delangue
+    role: AI 创始人 · Hugging Face CEO
+    twitter_handle: ClementDelangue
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: arthur_mensch
+    name: Arthur Mensch
+    role: AI 创始人 · Mistral AI CEO
+    twitter_handle: arthurmensch
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: aidan_gomez
+    name: Aidan Gomez
+    role: AI 创始人 · Cohere CEO / Transformer 论文联合作者
+    twitter_handle: aidangomez
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: josh_woodward
+    name: Josh Woodward
+    role: AI 创始人 · Google Labs VP
+    twitter_handle: joshwoodward
+    sources:
+      - type: twitter
+        enabled: true
+
+  # ── 三、AI 产品人（对 PM 最直接）────────────────────────────
+
+  - id: peter_yang
+    name: Peter Yang
+    role: AI 产品人 · Cursor 产品负责人
+    twitter_handle: petergyang
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: kevin_weil
+    name: Kevin Weil
+    role: AI 产品人 · OpenAI CPO
+    twitter_handle: kevinweil
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: dan_shipper
+    name: Dan Shipper
+    role: AI 产品人 · Every 联合创始人 & CEO
+    twitter_handle: danshipper
     sources:
       - type: twitter
         enabled: true
 
   - id: aaron_levie
     name: Aaron Levie
-    role: Box CEO
+    role: AI 产品人 · Box CEO
     twitter_handle: levie
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: karo_zieminski
+    name: Karo Zieminski
+    role: AI 产品人 · Substack《Product with Attitude》作者
+    twitter_handle: karozieminski
+    sources:
+      - type: twitter
+        enabled: true
+
+  # ── 四、AI 投资人（看趋势、赛道、商业模式）──────────────────
+
+  - id: sarah_guo
+    name: Sarah Guo
+    role: AI 投资人 · Conviction 创始人 / No Priors 播客联创
+    twitter_handle: saranormous
     sources:
       - type: twitter
         enabled: true
 
   - id: garry_tan
     name: Garry Tan
-    role: Y Combinator CEO
+    role: AI 投资人 · Y Combinator CEO
     twitter_handle: garrytan
     sources:
       - type: twitter
@@ -115,7 +199,7 @@ people:
 
   - id: matt_turck
     name: Matt Turck
-    role: FirstMark Capital 合伙人
+    role: AI 投资人 · FirstMark Capital 合伙人
     twitter_handle: mattturck
     sources:
       - type: twitter
@@ -123,33 +207,84 @@ people:
 
   - id: nikunj_kothari
     name: Nikunj Kothari
-    role: a16z 合伙人
+    role: AI 投资人 · a16z 合伙人
     twitter_handle: nikunj
-    sources:
-      - type: twitter
-        enabled: true
-
-  - id: peter_steinberger
-    name: Peter Steinberger
-    role: PSPDFKit 创始人
-    twitter_handle: steipete
-    sources:
-      - type: twitter
-        enabled: true
-
-  - id: dan_shipper
-    name: Dan Shipper
-    role: Every 联合创始人 & CEO
-    twitter_handle: danshipper
     sources:
       - type: twitter
         enabled: true
 
   - id: aditya_agarwal
     name: Aditya Agarwal
-    role: Dropbox 前 CTO
+    role: AI 投资人 · Dropbox 前 CTO
     twitter_handle: adityaag
     sources:
       - type: twitter
         enabled: true
 
+  # ── 五、独立评论者 / 行业解读者（过滤噪音）──────────────────
+
+  - id: swyx
+    name: Swyx
+    role: 行业解读 · Latent Space 创始人
+    twitter_handle: swyx
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: simon_willison
+    name: Simon Willison
+    role: 行业解读 · Django 联创 / AI 工具实测博主
+    twitter_handle: simonw
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: david_ha
+    name: David Ha
+    role: 行业解读 · Sakana AI / 前 Stability AI
+    twitter_handle: hardmaru
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: lilian_weng
+    name: Lilian Weng
+    role: 行业解读 · OpenAI 研究负责人
+    twitter_handle: lilianweng
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: amanda_askell
+    name: Amanda Askell
+    role: 行业解读 · Anthropic 研究科学家
+    twitter_handle: AmandaAskell
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: alex_albert
+    name: Alex Albert
+    role: 行业解读 · Anthropic 开发者关系负责人
+    twitter_handle: alexalbert__
+    sources:
+      - type: twitter
+        enabled: true
+
+  - id: cat_wu
+    name: Cat Wu
+    role: 行业解读 · Anthropic 工程师
+    twitter_handle: _catwu
+    sources:
+      - type: twitter
+        enabled: true
+
+  # ── 六、垂直赛道 · 具身智能 / 机器人（可选）────────────────
+
+  - id: jason_ma
+    name: Jason Ma
+    role: 具身智能 · Dyna Robotics 联创 / 前 DeepMind
+    twitter_handle: JasonMa2020
+    sources:
+      - type: twitter
+        enabled: true
