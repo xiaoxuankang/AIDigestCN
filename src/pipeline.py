@@ -440,6 +440,9 @@ def translate_batch(tweets: list[dict], api_key: str) -> list[dict[str, str]]:
     """
     if not tweets:
         return []
+      
+    if api_key.lower() in ("skip", "none"):
+        return [{"title": "", "summary": t["text"], "original": ""} for t in tweets]
 
     fallback_results = [
         {"title": "（翻译失败）", "summary": t["text"], "original": t["text"]}
